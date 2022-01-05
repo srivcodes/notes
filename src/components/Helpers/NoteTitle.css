@@ -1,0 +1,29 @@
+.note-taker-title {
+    width: 100%;
+    border: none;
+    padding: 0.3em 0.8em;
+    padding-top: 1em;
+    margin-bottom: 0.5em;
+    background-color: transparent;
+}
+
+.title-input {
+    height: 1em;
+    font-weight: 400;
+    width: 97%;
+    display: inline;
+    resize: none;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.title-pin-button {
+    background-color: transparent;
+    position: fixed;
+    cursor: pointer;
+    opacity: 0.54;
+}
+
+.title-pin-button:hover {
+    opacity: 0.87;
+}
