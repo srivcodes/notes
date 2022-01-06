@@ -1,5 +1,5 @@
 import React from 'react';
-import { MenuSvg } from '../Helpers/Svg';
+// import { MenuSvg } from '../Helpers/Svg';
 import logo from '../../images/logo.png';
 import { useLabel } from '../../ContextProviders/LabelContext';
 
@@ -8,13 +8,13 @@ export function Header() {
 
   return (
     <div className="header">
-      <div className="menu-icon">
+      {/* <div className="menu-icon">
         <MenuSvg />
-      </div>
+      </div> */}
       {selectedLabel === '' ? (
         <div className="home-heading">
           <img className="logo" src={logo} alt="Logo" />
-          <span className="label-heading">Sticky</span>
+          <span className="label-heading">Sticky | post-it notes made digital</span>
         </div>
       ) : (
         <div className="label-heading">{selectedLabel}</div>
