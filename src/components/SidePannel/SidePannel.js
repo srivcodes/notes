@@ -50,7 +50,7 @@ export function SidePannel() {
         }`}
       >
         <HomeSvg />
-        Notes
+        Home
       </div>
 
       <LableList />

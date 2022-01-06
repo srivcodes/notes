@@ -21,7 +21,7 @@ export function NotesProvider({ children }) {
             title: "Diary Entry",
             body:
                 "This a diary entry that you can edit into some thing you would like to write about. You may write about Highlights of your day, What you are greatful for, Self-care, work, family, thoughts, feelings or just doodle away. You can also rant, vent and write about absolutely anything! ",
-            label: "Important",
+            label: "Diary",
             colour: "rgb(32, 44, 148, 0.4)",
             pinned: false,
             lastModified: Date.now(),

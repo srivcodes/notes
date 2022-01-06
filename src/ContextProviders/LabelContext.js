@@ -2,7 +2,7 @@ import { useContext, createContext, useState } from 'react';
 const LabelContext = createContext();
 
 export function LabelProvider({ children }) {
-  const [labelList, setLabelList] = useState(['None', 'Important', 'Todo']);
+  const [labelList, setLabelList] = useState(['None', 'Diary', 'Todo']);
   const [selectedLabel, setSelectedLabel] = useState('');
   return (
     <LabelContext.Provider
