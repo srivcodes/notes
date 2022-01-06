@@ -11,6 +11,7 @@
 @import url('./components/SidePannel/EditLabel.css');
 @import url('./components/SidePannel/SidePannel.css');
 @import url('./components/Header/Header.css');
+@import url('./components/Footer/Footer.css');
 
 :root {
   --primary-colour: #202124;

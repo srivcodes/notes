@@ -8,13 +8,6 @@
   align-items: center;
 }
 
-.menu-icon {
-  margin: 0 1.9em;
-  margin-top: 0.5em;
-  transform: scale(1.5);
-  cursor: pointer;
-}
-
 .logo {
   margin-left: 1.6em;
   width: 2.1em;
