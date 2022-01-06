@@ -1,7 +1,12 @@
 import React from 'react';
 import { NoteCard } from './NoteCard';
+import { useNotes } from "../../ContextProviders/NotesContext";
+import { useLabel } from "../../ContextProviders/LabelContext";
 
 export function DisplayNotes() {
+  const { selectedLabel } = useLabel();
+  const { notesList } = useNotes();
+  
   function sortByTime(notesObject) {
     const listOfIds = Object.keys(notesObject);
     listOfIds.sort(
