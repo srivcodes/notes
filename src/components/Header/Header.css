@@ -22,3 +22,8 @@
 .label-heading {
   font-size: 1.4rem;
 }
+
+.CustomLabel-heading {
+  font-size: 1.4rem;
+  margin-left: 3em;
+}

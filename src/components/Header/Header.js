@@ -13,7 +13,7 @@ export function Header() {
           <span className="label-heading">Sticky | post-it notes made digital</span>
         </div>
       ) : (
-        <div className="label-heading">{selectedLabel}</div>
+        <div className="customLabel-heading">{selectedLabel}</div>
       )}
     </div>
   );
