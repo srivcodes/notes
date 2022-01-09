@@ -36,9 +36,7 @@ export function EditNote() {
             <div className="footer">
               <NoteFooter note={editNote} setNote={setEditNote} />
             </div>
-            <button className="close" onClick={closeModal}>
-              Close
-            </button>
+            <button className="close" onClick={closeModal}></button>
           </div>
         </div>
       ) : null}

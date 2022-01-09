@@ -5,7 +5,7 @@ import { DisplayNotes } from './components/DisplayNotes/DisplayNotes';
 import { EditNote } from './components/EditNote/EditNote';
 import { useNotes } from './ContextProviders/NotesContext';
 import { Header } from './components/Header/Header';
-import { Footer } from './components/Footer/Footer';
+// import { Footer } from './components/Footer/Footer';
 
 export function App() {
   const { addNote, newNoteFlag } = useNotes();
@@ -23,7 +23,6 @@ export function App() {
         <NewNote />
         <DisplayNotes />
         <EditNote />
-        <Footer />
       </div>
     </div>
   );

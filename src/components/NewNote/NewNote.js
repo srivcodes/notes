@@ -24,9 +24,7 @@ export function NewNote() {
         style={{ display: newNoteFlag ? 'inline' : 'none' }}
       >
         <NoteFooter note={note} setNote={setNote} />
-        <button className="close" onClick={addNote}>
-          Close
-        </button>
+        <button className="close" onClick={addNote}></button>
       </div>
     </div>
   );

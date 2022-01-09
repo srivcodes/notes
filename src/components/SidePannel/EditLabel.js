@@ -4,7 +4,7 @@ import { CheckSvg } from '../Helpers/Svg';
 export function EditLabel({ label, setLabel, addNewLabel }) {
   return (
     <div onClick={(e) => e.stopPropagation()} className="edit-label-card">
-      <div className="edit-label-title">Add Label</div>
+      <div className="edit-label-title">Add a Custom Label</div>
 
       <input
         className="edit-label-input"

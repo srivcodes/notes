@@ -29,7 +29,7 @@ export function NoteBody({ note, setNote, setNewNoteFlag }) {
   return (
     <textarea
       className="note-body-style"
-      placeholder="Take a note..."
+      placeholder="Write your note..."
       type="text"
       autoFocus
       onClick={expandNewNote}
